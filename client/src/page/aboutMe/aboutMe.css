@@ -1,0 +1,5 @@
+.gradient-container2 {
+    flex-shrink: 0;
+    background: linear-gradient(360deg, #959D90 0%, rgba(149, 157, 144, 0.00) 80%);
+  }
+  

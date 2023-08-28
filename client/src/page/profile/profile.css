@@ -1,0 +1,61 @@
+.container-fluid{
+  height: 100vh;
+  background-color: rgb(203, 200, 200);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#profileImg{
+  max-width: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+#custom-button {
+  position: relative;
+  left: 120px;
+  top: 20px;
+  background-color: #959D90;
+  color: #223030;
+  font-size: 20px;
+  border-color: rgb(255, 255, 255);
+}
+
+#custom-button:hover {
+  background-color: #223030;
+  color: rgb(255, 255, 255);
+}
+.social-icon {
+  width: 45px;
+  transition: transform 0.2s; /* Adding a smooth transition for the transform property */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Scale the image up by 10% on hover */
+}
+@media (max-width: 767px) {
+  .col-md-4 {
+    text-align: center; /* Center the text on mobile screens */
+  }
+  .col-md-5 {
+    text-align: center; /* Center the text on mobile screens */
+  }
+  .col-md-3 {
+    position: relative;
+    top: 30px; /* Center the text on mobile screens */
+  }
+  #custom-button{
+    bottom: 50px;
+  }
+}
+.gradient-container {
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #959D90 0%, rgba(149, 157, 144, 0.00) 30%);
+}
+
+
+
+
+
+
+

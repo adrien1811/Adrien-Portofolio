@@ -1,0 +1,25 @@
+
+  #custom-button3 {
+    background-color: #959D90;
+    color: #223030;
+    font-size: 20px;
+    border-color: rgb(255, 255, 255);
+  }
+  #custom-button3:hover {
+    background-color: #223030;
+    color: rgb(255, 255, 255);
+  }
+  @media (max-width: 767px) {
+    .border-bottom-md {
+      border-bottom: none !important;
+    }
+    
+    .border-top-md {
+      border-top: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .border-left-sm {
+
+      }
+    }
