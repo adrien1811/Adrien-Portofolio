@@ -1,9 +1,0 @@
-@media (min-width: 991px) {
-  .right {
-    position: relative;
-    right: 90px;
-  }
-}
-.nav-link:hover {
-  color: #555555; /* Change this color to the darker shade you prefer */
-}
