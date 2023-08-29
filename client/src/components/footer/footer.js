@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="text-center p-3 flex-row" style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#223030', color: 'white', minHeight: '150px' }}>
-      <span style={{ display: 'flex', alignItems: 'center',position:'relative' }}>
+      <span style={{ display: 'flex', alignItems: 'center',position:'relative', bottom:'27px' }}>
         © Last updated information: 2023.
       </span>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
