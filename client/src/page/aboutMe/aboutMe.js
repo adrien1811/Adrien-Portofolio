@@ -46,7 +46,7 @@ const AboutMe = () => {
     <div className="col-md-2" style={{ }}></div>
     <div class="col-md-3 mt-3 d-flex flex-column justify-content-center justify-content-md-start align-items-center align-items-md-start" style={{width:'540px'}}>
         <h1 style={{ fontFamily: 'Quicksand, sans-serif', fontSize:'55px', color:'white' , fontWeight:'bold'}}>Get To Know Me</h1>
-        <p style={{ fontFamily: 'Quicksand, sans-serif' , fontSize: '20px',textAlign: 'justify', color:'white'}}>My name is Adrien Ardra Ramadhan, and I am  a 3rd-year Computer Engineering student and experienced in mobile and web development. Currently looking for opportunities to enhance my skills towards achieving my career goals. Hit the button below and see my past projects</p>
+        <p style={{ fontFamily: 'Quicksand, sans-serif' , fontSize: '20px',textAlign: 'justify', color:'white'}}>My name is Adrien Ardra Ramadhan, and I am  a 3rd-year Computer Engineering student and experienced in mobile and web development. Currently looking for opportunities to enhance my skills towards achieving my career goals. Hit the button below and see my past projects.</p>
         <div style={{ display: 'flex', alignSelf:'center', justifyContent: 'center', position: 'relative' }}>
         <Link to="/projects">
         <button className="btn custom-button" style={{ position: 'relative', left: '50%', transform: 'translateX(-50%)', top: '20px' }} id="custom-button">
