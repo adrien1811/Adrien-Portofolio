@@ -60,11 +60,11 @@ const AboutMe = () => {
         </div>
       </div>
    
-        {/* Framework Carousel */}
+      
         <div className="row align-items-center">
           <div className="col-md-12 d-flex flex-column justify-content-center justify-content-md-center align-items-center align-items-md-center" style={{ position: 'relative', top: '75px' }}>
             <h1 style={{ fontFamily: 'Quicksand, sans-serif', fontSize: '45px', color: 'white', fontWeight: 'bold' }}>Skills I Have</h1>
-            {/* Framework Carousel */}
+
             <div id="frameworkCarousel" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           {frameworks.map((slide, index) => (
