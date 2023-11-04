@@ -29,7 +29,7 @@ const Profile = () => {
   <p style={{ fontFamily: 'Quicksand, sans-serif', fontSize: '20px' }}>
   <span style={{ color: 'white', marginRight: '10px' }}>I'm excited to join</span> 
   <span style={{ color: 'black' }}>
-BRILiaN Scholarship Program 2023
+Internship opportunities
 </span>
   </p>
   <div style={{ display: 'flex', alignSelf:'center', justifyContent: 'center', position: 'relative' }}>
